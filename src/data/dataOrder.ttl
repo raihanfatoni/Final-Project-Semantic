@@ -1,0 +1,171 @@
+@prefix ab: <http://learningsparql.com/ns/addressbook#> .
+@prefix e:  <http://learningsparql.com/ns/data#> .
+
+# Orders by K-link
+
+e:order01   ab:namaBarang  "K-Liquid Chlorophyll" ;
+            ab:kuantitas "10.000";
+            ab:tanggalPemesanan     "21 Januari 2021" ;
+            ab:tanggalPengiriman     "22 Maret 2021" ;
+            ab:profitPerPcs     "Rp 3.000 " ;
+            ab:profitTotal     "Rp 30.000.000";
+            ab:hasCompany e:client01 .  
+
+e:order02   ab:namaBarang  "Body Lotion Addiction" ;
+            ab:kuantitas "100.000";
+            ab:tanggalPemesanan     "30 Januari 2021" ;
+            ab:tanggalPengiriman     "28 Februari 2021" ;
+            ab:profitPerPcs     "Rp 1.500" ;
+            ab:profitTotal     "Rp 150.000.000";
+            ab:hasCompany e:client01 .
+
+e:order03   ab:namaBarang  "Body Shower Rumour" ;
+            ab:kuantitas "50.000";
+            ab:tanggalPemesanan     "15 Januari 2021" ;
+            ab:tanggalPengiriman     "5 Februari 2021" ;
+            ab:profitPerPcs     "Rp 2.000" ;
+            ab:profitTotal     "Rp 100.000.000";
+            ab:hasCompany e:client01 .
+
+e:order04   ab:namaBarang  "Hair Rejuve Tonic" ;
+            ab:kuantitas "30.000";
+            ab:tanggalPemesanan     "21 Januari 2021" ;
+            ab:tanggalPengiriman     "22 Maret 2021" ;
+            ab:profitPerPcs     "Rp 2.500" ;
+            ab:profitTotal     "Rp 75.000.000";
+            ab:hasCompany e:client01 .
+
+e:order05   ab:namaBarang  "K-Perfet Day Cream " ;
+            ab:kuantitas "300.000";
+            ab:tanggalPemesanan     "29 April 2021" ;
+            ab:tanggalPengiriman     "31 Juli 2021" ;
+            ab:profitPerPcs     "Rp 1.000 " ;
+            ab:profitTotal     "Rp 300.000.000";
+            ab:hasCompany e:client01 .          
+
+# Orders by Bule Collagen
+
+e:order06   ab:namaBarang  "Bule Collagen Brigthening" ;
+            ab:kuantitas "20.000";
+            ab:tanggalPemesanan     "17 Juni 2021" ;
+            ab:tanggalPengiriman     "10 Juli 2021" ;
+            ab:profitPerPcs     "Rp 3.000" ;
+            ab:profitTotal     "Rp 60.000.000";
+            ab:hasCompany e:client02 .
+
+e:order07   ab:namaBarang  "Bule Collagen Body Scrub" ;
+            ab:kuantitas "50.000";
+            ab:tanggalPemesanan     "10 Juni 2021" ;
+            ab:tanggalPengiriman     "5 Juli 2021" ;
+            ab:profitPerPcs     "Rp 2.000" ;
+            ab:profitTotal     "Rp 100.000.000";
+            ab:hasCompany e:client02 .
+
+e:order08   ab:namaBarang  "Bule Collagen Day Bleaching" ;
+            ab:kuantitas "30.000";
+            ab:tanggalPemesanan     "17 Agustus 2021" ;
+            ab:tanggalPengiriman     "10 September 2021" ;
+            ab:profitPerPcs     "Rp 2.500" ;
+            ab:profitTotal     "Rp 75.000.000";
+            ab:hasCompany e:client02 .
+
+e:order09   ab:namaBarang  "Bule Collagen Day Bleaching" ;
+            ab:kuantitas "30.000";
+            ab:tanggalPemesanan     "17 Agustus 2021" ;
+            ab:tanggalPengiriman     "10 September 2021" ;
+            ab:profitPerPcs     "Rp 2.500" ;
+            ab:profitTotal     "Rp 75.000.000";
+            ab:hasCompany e:client02 .
+
+e:order10   ab:namaBarang  "Bule Collagen Body Scrub" ;
+            ab:kuantitas "50.000";
+            ab:tanggalPemesanan     "15 Juli 2021" ;
+            ab:tanggalPengiriman     "17 Agustus 2021" ;
+            ab:profitPerPcs     "Rp 2.000" ;
+            ab:profitTotal     "Rp 100.000.000";
+            ab:hasCompany e:client02 .
+
+# Orders by Bio Herbal
+
+e:order11   ab:namaBarang  "Ginseng Hair Tonic" ;
+            ab:kuantitas "500.000";
+            ab:tanggalPemesanan     "23 Maret 2021" ;
+            ab:tanggalPengiriman     "30 Juni 2021" ;
+            ab:profitPerPcs     "Rp 1.000" ;
+            ab:profitTotal     "Rp 500.000.000";
+            ab:hasCompany e:client03 .
+
+e:order12   ab:namaBarang  "Herbal Shampoo" ;
+            ab:kuantitas "300.000";
+            ab:tanggalPemesanan     "30 April 2021" ;
+            ab:tanggalPengiriman     "22 Juli 2021" ;
+            ab:profitPerPcs     "Rp 1.000" ;
+            ab:profitTotal     "Rp 300.000.000";
+            ab:hasCompany e:client03 .
+
+e:order13   ab:namaBarang  "Minyak Kemiri BMKS" ;
+            ab:kuantitas "500.000";
+            ab:tanggalPemesanan     "25 Juli 2021" ;
+            ab:tanggalPengiriman     "12 Oktober 2021" ;
+            ab:profitPerPcs     "Rp 1.000" ;
+            ab:profitTotal     "Rp 500.000.000";
+            ab:hasCompany e:client03 .
+
+e:order14   ab:namaBarang  "BMKS Black Magic Shampoo" ;
+            ab:kuantitas "200.000";
+            ab:tanggalPemesanan     "24 Oktober 2021" ;
+            ab:tanggalPengiriman     "22 Desember 2021" ;
+            ab:profitPerPcs     "Rp 1.000" ;
+            ab:profitTotal     "Rp 200.000.000";
+            ab:hasCompany e:client03 .
+
+e:order15   ab:namaBarang  "BMKS Hair Tonic" ;
+            ab:kuantitas "200.000";
+            ab:tanggalPemesanan     "21 Agustus 2021" ;
+            ab:tanggalPengiriman     "28 Desember 2021" ;
+            ab:profitPerPcs     "1.000" ;
+            ab:profitTotal     "Rp 200.000.000";
+            ab:hasCompany e:client03 .
+# Company
+
+e:client01 ab:namaPerusahaan "K-Link" ;
+           ab:namaClient "Rahma Dila";
+           ab:alamatPerusahaan "Jl. Gatot Subroto Kavling 59A Jakarta Selatan ";
+           ab:kontak "081677436529";
+           ab:priority "Mid".
+
+e:client02 ab:namaPerusahaan "Bio Herbal" ;
+           ab:namaClient "Riko Choi";
+           ab:alamatPerusahaan "Gedung Perkantoran Foresta BSD Unit 2";
+           ab:kontak "081866570102";
+           ab:priority "High".
+
+e:client03 ab:namaPerusahaan "Bule Collagen" ;
+           ab:namaClient "Rika Chou";
+           ab:alamatPerusahaan "Klaten, Jawa Tengah, Indonesia";
+           ab:kontak "081299911410";
+           ab:priority "Low".
+
+
+# Triples
+
+# K-Link
+# e:order01 ab:hasCompany e:client01 .
+# e:order02 ab:hasCompany e:client01 .
+# e:order03 ab:hasCompany e:client01 .
+# e:order04 ab:hasCompany e:client01 .
+# e:order05 ab:hasCompany e:client01 .
+
+# Bio Herbal
+# e:order06 ab:hasCompany e:client02 .
+# e:order07 ab:hasCompany e:client02 .
+# e:order08 ab:hasCompany e:client02 .
+# e:order09 ab:hasCompany e:client02 .
+# e:order10 ab:hasCompany e:client02 .
+
+# Bule Collagen
+# e:order11 ab:hasCompany e:client03 .
+# e:order12 ab:hasCompany e:client03 .
+# e:order13 ab:hasCompany e:client03 .
+# e:order14 ab:hasCompany e:client03 .
+# e:order15 ab:hasCompany e:client03 .
